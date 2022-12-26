@@ -9,6 +9,11 @@ body {
   line-height: 1.5;
 }
 
+.page-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
 h1,
 h2,
 h3,
