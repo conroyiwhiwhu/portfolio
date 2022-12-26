@@ -27,11 +27,28 @@ p {
   margin: 0;
 }
 
+/* Mobile first design  */
+
+@media only screen and (max-width: 1000px) {
+  #navigation {
+    display: none;
+  }
+
+  .profile-icon {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #headline {
+    position: static;
+    margin: 20px;
+  }
 
 
-#profilePicture {
-height: 200px;
-width: 200px;
+#profile-icon {
+height: 150px;
+width: 150px;
 }
 
 a:link, a:visited {
