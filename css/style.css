@@ -26,3 +26,20 @@ h6 {
 p {
   margin: 0;
 }
+
+
+
+#profilePicture {
+height: 200px;
+width: 200px;
+}
+
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
