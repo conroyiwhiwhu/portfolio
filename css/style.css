@@ -25,6 +25,7 @@ h6 {
 
 p {
   margin: 0;
+  font-size: 16;
 }
 
 /* Mobile first design  */
@@ -50,6 +51,7 @@ p {
 height: 150px;
 width: 150px;
 }
+
 
 a:link, a:visited {
   color: (internal value);
